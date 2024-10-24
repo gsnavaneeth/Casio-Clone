@@ -4,11 +4,11 @@ body{
 .top-header{
     display: flex;
     justify-content: right;
-    background-color: rgba(239, 249, 249, 0.842);    
+    background-color: rgb(244,245,248);   
     height: 34px;
     align-items: center;
     padding-right: 35px;
-
+    /* width: 100%; */
 }
 .top-header ul{
     display: flex;
@@ -23,4 +23,28 @@ body{
 .top-header li:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.left-section{
+    display: flex;
+    background-color: aqua;
+    width: 300px;
+    align-items: center;
+}
+.middle-section{
+    background-color: pink;
+    width: 600px;
+}
+.right-section{
+    background-color: chartreuse;
+    flex: 1;
+}
+.left-section img{
+    width: 120px;
 }
