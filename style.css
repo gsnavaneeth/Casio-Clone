@@ -6,9 +6,10 @@ body{
     display: flex;
     justify-content: right;
     background-color: rgb(244,245,248);   
-    height: 34px;
+    height: 30px;
     align-items: center;
-    padding-right: 35px;
+    padding-right: 18px;
+    padding-top: 13px;
 }
 .top-header ul{
     display: flex;
@@ -27,25 +28,30 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    height: 56px;
+    height: 60px;
 }
 .left-section{
     display: flex;
     background-color: white;
     width: 300px;
     align-items: center;
+    /* padding-bottom: 15px; */
 }
 .middle-section{
     display: flex;
     background-color: white;
     width: 600px;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-top: 16px;
 }
 
 .left-section img{
-    width: 120px;
-    padding-left: 41px;
+    /* width: 120px;
+    padding-left: 41px; */
+    width: 164px;
+    padding-left: 42px;
+    /* height: 70px; */
 }
 .middle-section ul{
     display: flex;
@@ -71,16 +77,23 @@ body{
     border-color: black;
     border-bottom:solid 1px rgb(216,216,216);
     height: 20px;
-    width: 142px;
+    width: 155px;
+    padding-bottom: 7px;
+
 }
 .search-btn img{
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
+    margin-bottom: 12px;
+    margin-left: 19px;
+
 }
 .search-bar input{
     outline: none;
     border: none;
     width: 113px;
+    padding-left: 10px;
+
 }
 .search-btn{
     border: none;
@@ -88,4 +101,21 @@ body{
 }
 .search-bar ::placeholder{
     font-size: 11px;
+    /* padding-bottom: 15px; */
 }
+/* #carousel-btn{
+    background: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-top: 270px;
+    margin-left: 10px;
+
+} */
+ .calculators img{
+    width: 100%;
+ }
+ .pianos img{
+    width: 100%;
+ }
