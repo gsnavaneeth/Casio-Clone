@@ -119,3 +119,36 @@ body{
  .pianos img{
     width: 100%;
  }
+ .new-drops{
+    height: 170px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+}
+.new-drops h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.left, .right{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 64, 0);
+    border: solid black;
+}
+.picture img{
+    width: 250px;
+    margin-left: 26px;
+}
+.card-container{
+    border: solid black 1px;
+    width: 300px;
+}
