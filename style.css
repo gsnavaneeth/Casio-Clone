@@ -17,7 +17,6 @@ body{
     padding-left: 15px;
     gap: 35px;
     padding-right: 40px;
-    
     font-size: 11px;
     
 }
@@ -197,11 +196,118 @@ body{
     align-items:end;
 }
 .new-product-btn button{
-    width: 300px;
+    width: 280px;
     height: 40px;
     color: white;
     background-color: black;
     border: none;
     font-size: 14px;
+
+}
+.new-product-btn button:hover{
+    opacity: 60%;
+}
+.topics{
+    height: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-left: 19px;
+    padding-top: 30px;
+}
+.topics h2{
+    font-size: 33px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.topics-main-div{
+    display: flex;
+    flex-direction: row;
+    height: 415px;
+    justify-content:space-around
     
+}
+.topics-div{
+    height: 410px;
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.topics-img{
+    overflow: hidden;
+}
+.topics-img img{
+    width: 299px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.topics-description p{
+    font-size: 10px;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-weight: 500;
+    
+}
+.topics-name p{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.topics-div:hover .topic-card-img{
+    transform: scale(1.1);
+}
+
+.footer-heading{
+    height: 150px;
+
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    height: 100px;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 65px;
+}
+.footer-heading p{
+    padding-top: 80px;
+    padding-left: 45px;
+    font-size: 12px;
+}
+.social-media{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 57px;
+    gap: 21px;
+}
+.third-footer{
+    display: flex;
+    flex-direction: row;
+}
+.third-footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 10px;
+    font-weight: 500;
+    gap: 40px;
+    padding-left: 58px;
+
+}
+.fourth-footer p{
+    font-size: 9px;
+    padding-left: 59px;
+}
+.final-footer{
+    padding-left: 34px;
+    font-size: 13px;
+    font-weight: 700;
 }
