@@ -34,7 +34,6 @@ body{
     background-color: white;
     width: 300px;
     align-items: center;
-    /* padding-bottom: 15px; */
 }
 .middle-section{
     display: flex;
@@ -46,11 +45,8 @@ body{
 }
 
 .left-section img{
-    /* width: 120px;
-    padding-left: 41px; */
     width: 164px;
     padding-left: 42px;
-    /* height: 70px; */
 }
 .middle-section ul{
     display: flex;
@@ -100,22 +96,12 @@ body{
 }
 .search-bar ::placeholder{
     font-size: 11px;
-    /* padding-bottom: 15px; */
 }
-/* #carousel-btn{
-    background: white;
-    color: black;
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
-    margin-top: 270px;
-    margin-left: 10px;
 
-} */
- .calculators img{
+.calculators img{
     width: 100%;
  }
- .pianos img{
+.pianos img{
     width: 100%;
  }
  .new-drops{
@@ -137,11 +123,8 @@ body{
     flex-direction: row;
 }
 .left, .right{
-    /* display: flex; */
     height: 50px;
     width: 150px;
-    /* background-color: rgb(255, 64, 0);
-    border: solid black; */
 }
 .picture img{
     width: 250px;
@@ -153,7 +136,6 @@ body{
     
 }
 .card-container:hover{
-    /* border: solid black 1px; */
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
